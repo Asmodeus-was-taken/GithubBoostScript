@@ -10,7 +10,6 @@ function sleep(time) {
 
 async function main () {
     var setTitle = require('console-title');
-    setTitle(`Made by ImNotSummer | discord.gg/theolympus`);
     console.clear();
     puppeteer.launch({ headless: true, executablePath: 'C://Program Files (x86)//Google//Chrome//Application//chrome.exe'}).then(async browser => { 
         console.log('Starting Login')
